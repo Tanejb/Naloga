@@ -18,6 +18,12 @@
           class="max-w-screen-md h-[100px] w-full mb-12 "
         />
       </div>
+      <!-- Weekly -->
+      <div class="flex flex-col py-12 px-8 items-center">
+        <AnimatedPlaceholder
+          class="max-w-screen-md h-[100px] w-full mb-12"
+        />
+      </div>
     </div>
   </template>
   

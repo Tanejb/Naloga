@@ -49,7 +49,12 @@ import CityCardSkeleton from "../components/CityCardSkeleton.vue";
 import CityList from "../components/CityList.vue";
 
 const router = useRouter();
+//const maxCity = 6;
 const previewCity = (searchResult) => {
+  //if (savedCities.value.length >= maxCity) {
+   // alert("Dosegli ste maksimalno število shranjenih mest.");
+    //return;
+  //}
   const [city, state] = searchResult.place_name.split(",");
   router.push({
     name: "cityView",
